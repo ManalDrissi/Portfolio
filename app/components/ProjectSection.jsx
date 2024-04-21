@@ -61,7 +61,7 @@ const projectsData = [
   },
 ]
 
-export default () => {
+const ProjectSection = () => {
   const [tag, setTag] = useState("All")
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true })
@@ -124,3 +124,5 @@ export default () => {
     </section>
   )
 }
+
+export default ProjectSection

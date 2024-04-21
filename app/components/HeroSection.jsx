@@ -18,7 +18,7 @@ const downloadCV = () => {
   })
 }
 
-export default () => {
+const HeroSection = () => {
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -30,7 +30,7 @@ export default () => {
         >
           <h1 className="mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="bg-gradient-to-br from-emerald-500 to-sky-500 text-transparent inline-block bg-clip-text ">
-              Hello, I'm{" "}
+              Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -54,7 +54,7 @@ export default () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Motivated developer ready to bring my passion and dedication to any team. Eager to contribute my skills and make a positive impact. let's connect and create something amazing together!
+            Motivated developer ready to bring my passion and dedication to any team. Eager to contribute my skills and make a positive impact. let&apos;s connect and create something amazing together!
           </p>
           <div>
             <Link
@@ -93,3 +93,5 @@ export default () => {
     </section>
   )
 }
+
+export default HeroSection

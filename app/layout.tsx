@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Manal Portfolio",
   icons: {
-    icon: "/icon.png",
+    icon: "/favicon.ico"
   }
 };
 

@@ -9,7 +9,7 @@ export const contentType = 'image/png'
 export default function Icon() {
   return new ImageResponse(
     (
-      <img src="/images/happy.png" alt="" />
+      <img src="icon.png" alt="" />
     ),
     {
       ...size,

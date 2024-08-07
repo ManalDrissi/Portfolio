@@ -47,7 +47,7 @@ export default () => {
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
           Let's Connect
-        </h5>
+        </h5 >
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           I'm always on the look for new opportunities, and my inbox is readily available. Whether you have questions or simply wish to say hello, I'll do my utmost to respond promptly!
@@ -60,7 +60,7 @@ export default () => {
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
-      </div>
+      </div >
       <div>
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2 lg:ml-8">

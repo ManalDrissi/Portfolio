@@ -30,7 +30,7 @@ export default () => {
           <h1 className="mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="bg-gradient-to-br from-emerald-500 to-sky-500 text-transparent inline-block bg-clip-text ">
               Hello, I'm{" "}
-            </span>
+            </span >
             <br></br>
             <TypeAnimation
               sequence={[
@@ -51,7 +51,7 @@ export default () => {
               repeat={Infinity}
               className="text-white"
             />
-          </h1>
+          </h1 >
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Motivated developer ready to bring my passion and dedication to any team. Eager to contribute my skills and make a positive impact. let's connect and create something amazing together!
           </p>
@@ -71,7 +71,7 @@ export default () => {
               </span>
             </Link>
           </div>
-        </motion.div>
+        </motion.div >
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -86,9 +86,9 @@ export default () => {
               width={300}
               height={300}
             />
-          </div>
-        </motion.div>
-      </div>
-    </section>
+          </div >
+        </motion.div >
+      </div >
+    </section >
   )
 }

@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default ({ href, title }) => {
+const NavLink = ({ href, title }) => {
   return (
     <Link
       href={href}
@@ -10,3 +10,5 @@ export default ({ href, title }) => {
     </Link>
   )
 }
+
+export default NavLink

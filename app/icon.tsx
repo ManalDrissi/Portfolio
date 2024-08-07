@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { ImageResponse } from 'next/og'
 
 export const size = {
@@ -9,7 +10,7 @@ export const contentType = 'image/png'
 export default function Icon() {
   return new ImageResponse(
     (
-      <img src="icon.png" alt="" />
+      <Image src="icon.png" alt="" />
     ),
     {
       ...size,

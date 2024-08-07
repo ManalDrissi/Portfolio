@@ -1,6 +1,7 @@
 "use client";
 import React, { useTransition, useState } from "react"
 import TabButton from "./TabButton"
+import Image from "next/image"
 
 const TAB_DATA = [
   {
@@ -39,7 +40,7 @@ const TAB_DATA = [
   },
 ]
 
-export default () => {
+const AboutSection = () => {
   const [tab, setTab] = useState("skills")
   const [isPending, startTransition] = useTransition()
 
@@ -52,7 +53,7 @@ export default () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <img src="/images/blue.png" width={500} height={500} />
+        <Image src="/images/blue.png" width={500} height={500} alt='' />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
@@ -94,3 +95,5 @@ export default () => {
     </section>
   )
 }
+
+export default AboutSection

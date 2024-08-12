@@ -30,7 +30,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Master in Applied Computer Science, Offshoring: 12/2022</li>
-        <li>Bachelor's degree in Mathematics and Computer Science (SMI): 12/2020</li>
+        <li>Bachelor&apos;s degree in Mathematics and Computer Science (SMI): 12/2020</li>
         <li>Diploma of General University Studies in Mathematics and Computer Science (DEUG): 12/2019</li>
         <li>Mathematical Sciences and Applied Informatics (SMIA): 12/2018</li>
         <li>American Baccalaureate: 12/2016</li>

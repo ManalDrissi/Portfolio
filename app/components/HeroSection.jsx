@@ -6,7 +6,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 const downloadCV = () => {
-  fetch("/CV_Manal_DRISSI_FR_EN.pdf").then((response) => {
+  fetch("/Drissi_Manal_Resume.pdf").then((response) => {
     response.blob().then((blob) => {
       const fileURL =
         window.URL.createObjectURL(blob)
@@ -35,17 +35,13 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Manal",
-                1000,
-                "Web Developer",
-                1000,
-                "Software Engineer",
+                "Manal Drissi",
                 1000,
                 "UI/UX Designer",
                 1000,
                 'Twitch Streamer',
                 1000,
-                'Happy'
+                'lHappy'
               ]}
               wrapper="span"
               speed={50}
@@ -54,7 +50,7 @@ const HeroSection = () => {
             />
           </h1 >
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Motivated developer ready to bring my passion and dedication to any team. Eager to contribute my skills and make a positive impact. let&apos;s connect and create something amazing together!
+            Motivated designer ready to bring my passion and dedication to any team. Eager to contribute my skills and make a positive impact. let&apos;s connect and create something amazing together!
           </p>
           <div>
             <Link
